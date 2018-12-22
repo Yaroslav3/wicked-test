@@ -1,0 +1,29 @@
+<wicket:panel xmlns:wicket="http://www.w3.org/1999/html">
+    <div class="row">
+        <div class="container">
+
+            <div class="table-user">
+                <table class="table">
+                    <tr>
+                        <th data-field="id" data-align="right" data-sortable="true">ID</th>
+                        <th data-field="fname">First Name</th>
+                        <th data-field="lname">Last Name</th>
+                        <th data-field="ag" data-sortable="true">Age</th>
+                        <th data-field="ag" data-sortable="true">Options</th>
+                    </tr>
+                    <tr wicket:id="rows">
+                        <td><span wicket:id="id">[contactid]</span></td>
+                        <td><span wicket:id="name">[firstname]</span></td>
+                        <td><span wicket:id="surname">[lastname]</span></td>
+                        <td><span wicket:id="age">[age]</span></td>
+                        <td>
+                            <a href wicket:id="editLocationLink"><i class="fas fa-user-edit"></i> Edit </a>
+                            <a style="padding-left: 20px" href wicket:id="deleteLocationLink"><i
+                                    class="fas fa-user-times"></i> Delete</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</wicket:panel>
