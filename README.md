@@ -1,4 +1,4 @@
-# wicked-test
+# wicked-test CRUD
 
 #Technologies in the project:
 1.  Spring boot (v2.1.1.RELEASE)
